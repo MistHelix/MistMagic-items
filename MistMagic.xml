@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+    <name>Bleb march magic items</name>
+        <description>magic items that are being used in bleb march</description>
+        <author url="">Mist Helix</author>
+        <update version="0.0.1">
+            <file name="MistMagic.xml"
+            url="https://github.com/MistHelix/MistMagic-items.git"/>
+        </update>
+    </info>
+
+    <element name="Mystical Cigar" type="Magic Item" source="Bleb March" id="ID_MistHelix_HomeBrew_MAGIC_ITEM_MYSTICAL_CIGAR">
+		<description>
+			<p>If you smoke one of these it takes your concentration and an action. When begin to smoke you flip a coin if its head it casts fog cloud 60ft range and lasts for 3 rounds and is consumbed. If you flipped tails you cast disguise self where your disguise must include someone smoking a cigar. It lasts for one minute.</p>
+			
+		</description>
+		<setters>
+			
+			<set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Items</set>
+			<set name="rarity">common</set>
+			
+			
+		</setters>
+	</element>
+    <element name="Dvorak's Research" type="Magic Item" source="Bleb March" id="ID_TUNA_HomeBrew_MAGIC_ITEM_DVORAK'S_RESEARCH">
+        <description>
+            <p> Some would kill for a chance to read this grimoire, and the tome itself will kill many readers.</p>
+            <p class="indent">It can give information if a page is translated at the cost of sanity.</p>
+        </description>
+        <setters>
+            
+            <set name="category">Wonderous Items</set>
+            <set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">5 lb.</set>
+			<set name="type">Wondrous Items</set>
+			<set name="rarity">unique</set>
+
+        </setters>
+    </element>
+    <element name="Clippy, the annoying thieves tool" type="Magic Item" source="Bleb March" id="ID_TUNA_HomeBrew_MAGIC_ITEM_CLIPY">
+        <description>
+            <p> Crafted by Meeko the Devious, this artifact looks like a small bendy rod of iron with googly eyes and a mouth made of  clay attached to it.</p>
+            <p class="indent"> You can strike it as an action, pointing it at an object within 120 feet of you that can be opened, such as a door, lid, or lock. The clip starts talking in a high pitch tone explaining you how to open the object,(potentailly alerting nearby enemies), and one lock or latch on the object opens unless the sound can't reach the object.</p>
+            <p  class="indent"> If no locks or latches remain, the object itself opens. The item can be used 1 time per adventure, at dm's discretion.</p>
+        </description>
+        <setters>
+            
+            <set name="category">Wonderous Items</set>
+            <set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Items</set>
+			<set name="rarity">uncommon</set>
+
+        </setters>
+    </element>
+    <element name="Jar of Beeholding" type="Magic Item" source="Bleb March" id="ID_TUNA_HomeBrew_MAGIC_ITEM_JAR_OF_BEEHOLDING">
+		<description>
+			<p>This jar has an interior space considerably larger than its outside dimensions, roughly 2 feet in diameter at the mouth and 4 feet deep. The jar can hold up to 500 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 15 pounds, regardless of its contents. Retrieving an item from the bag requires an action.</p>
+			<p class="indent">If the jar is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Bee Plane. When the jar is turned inside out, the content is spilled out, and 5d6 x items*  bees come out, hostile to the party unless a Animal Handling Check with 10 DC is passed by the perpretator. Breathing creatures inside the bag can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate.</p>
+			<p class="indent">Placing a <em>jar of holding</em> inside an extradimensional space created by a <em>handy haversack</em>, <em>portable hole</em>, or similar item instantly destroys both items and opens a gate to the Bee Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Bee Plane. The gate then closes. The gate is one-way only and can't be reopened.</p>
+            <p class="indent">Any wand put inside the bag is reduced to 1 charge. After the1 is used the wand is trandsformed automatically into a wand of bee swarm.</p>
+            
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="15">15 lb.</set>
+			<set name="stash" lb="500" weightless="true">true</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">uncommon</set>
+		</setters>
+	</element>
+    <element name="Ring of Singing, not Listening" type="Magic Item" source="Bleb March" id="ID_TUNA_HomeBrew_MAGIC_ITEM_RING_OF_SINGING,_NOT_LISTENING">
+		<description>
+			<p>A simple band made of meteoric iron. You gain a +1 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Uncommon</set>
+			<set name="slot">ring</set>
+			<set name="equippable">true</set>
+			<set name="attunement">true</set>
+		    <set name="enhancement">1</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="1" />
+		</rules>
+	</element>
+    <element name="Night Caller" type="Magic Item" source="Bleb March" id="ID_TUNA_HomeBrew_MAGIC_ITEM_NIGHT_CALLER">
+		<description>
+			<p>If you blow the whistle in darkness or under the night sky or under a black sun, it allows you to cast the animate dead spell. The target can be affected through up to 10 feet of soft earth or similar material, and if it is, it takes 1 minute to claw its way to the surface to serve you. Once the whistle has animated an undead creature, it can't do so again until 7 days have passed, unless the whitle was used in the negative energy plane.  ||Chose a part of your body. Your mouth moves there – it will return to normal once you blow the whistle.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">uncommon</set>
+		</setters>
+    </element>
+	<element name="Silphium Leaf" type="Item" source="Bleb March" id="ID_TUNA_HomeBrew_ITEM_SILPHIUM_LEAF">
+        <description>
+        <p>These dried leaves of the Silphium plant (extinct), when steeped to make a tea, can help a body recover from strenuous activity. If you drink a dose of Silphium tea during a long rest, your exhaustion level is reduced by 2 instead of 1 at the end of that long rest. You  are also under the effect of the mind blank spell for 24 hours during.<p>
+        </description>
+        <setters>
+            <set name="category">Adventuring Gear</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="stackable">true</set>
+        </setters>
+    </element>
+    <element name="Potion of Greater False Life" type="Magic Item" source="Bleb March" id="ID_TUNA_HomeBrew_ITEM_POTION_OF_GREATER_FALSE_LIFE">
+        <description>
+            <p>Your receive 2d4+4 Temporary Hit points and are resistant to necrotic damage for 24 hours. You are also an Undead for the duration with all the benefits and problem it causes.</p>
+        </description>
+        <sheet>
+            <description>
+                <set name="keywords">healing</set>
+			    <set name="category">Potions</set>
+			    <set name="cost" currency="gp">50</set>
+			    <set name="weight" lb="0.5">½ lb.</set>
+			    <set name="type">Potion</set>
+			    <set name="rarity">uncommon</set>
+			    <set name="stackable">true</set>
+            </description>
+        </sheet>
+    </element>
+    <element name="Collar of Parking" type="Magic Item" source="Bleb March" id="ID_TUNA_HomeBrew_ITEM_COLLAR_OF_PARKING">
+        <description>
+            <p>Requires attunement by a mount</p>
+            <p class="indent">When a mount is attuned to the collar, you can insert gold coins in a slot on the collar and then speak the command word. If you do, the creature will be sent to a demiplane for an amount of hours equal to the amount of gold coins spent (1 gold coin = 1 hour). While in the demiplane, the creature does not need to breathe, drink, eat or sleep, and its hp cannot be increased nor reduced. As an action you can speak the command word to make the creature return.</p>
+        </description>
+        <sheet>
+            <description>
+                <set name="category">Wondrous Items</set>
+			    <set name="cost" currency="gp">100</set>
+			    <set name="weight" lb="0">0 lb.</set>
+			    <set name="type">Wondrous Item</set>
+			    <set name="rarity">uncommon</set>
+                </description>
+        </sheet>
+    </element>
+</elements>
