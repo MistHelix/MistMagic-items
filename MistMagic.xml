@@ -105,7 +105,7 @@
     </element>
 	<element name="Silphium Leaf" type="Item" source="Bleb March" id="ID_TUNA_HomeBrew_ITEM_SILPHIUM_LEAF">
         <description>
-        <p>These dried leaves of the Silphium plant (extinct), when steeped to make a tea, can help a body recover from strenuous activity. If you drink a dose of Silphium tea during a long rest, your exhaustion level is reduced by 2 instead of 1 at the end of that long rest. You  are also under the effect of the mind blank spell for 24 hours during.<p>
+        <p>These dried leaves of the Silphium plant (extinct), when steeped to make a tea, can help a body recover from strenuous activity. If you drink a dose of Silphium tea during a long rest, your exhaustion level is reduced by 2 instead of 1 at the end of that long rest. You  are also under the effect of the mind blank spell for 24 hours during.</p>
         </description>
         <setters>
             <set name="category">Adventuring Gear</set>
@@ -196,12 +196,11 @@
         </description>
         <sheet>
             <description>
-                <set name="category">Wondrous Items</set>
+                <set name="category">Magic Weapons</set>
 			    <set name="cost" currency="gp">0</set>
-			    <set name="weight" lb="0">0 lb.</set>
-			    <set name="type">Wondrous Item</set>
+			    <set name="weight" lb="0">5 lb.</set>
+			    <set name="type" addition="any">Weapon</set>
                 <set name="attunement">true</set>
-                <set name="equippable">true</set>
                 <set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
 			    <set name="rarity">common</set>
             </description>
