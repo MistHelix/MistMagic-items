@@ -4,7 +4,7 @@
     <name>Bleb march magic items</name>
         <description>magic items that are being used in bleb march</description>
         <author url="">Mist Helix</author>
-        <update version="0.0.5">
+        <update version="0.0.4">
             <file name="MistMagic.xml"
             url="https://raw.githubusercontent.com/MistHelix/MistMagic-items/main/MistMagic.xml"/>
         </update>
@@ -197,6 +197,7 @@
         <setters>
             <description>
                 <set name="category">Magic Weapons</set>
+                <set name="type">Wondrous Items</set>
 			    <set name="cost" currency="gp">0</set>
 			    <set name="weight" lb="0">5 lb.</set>
 			    <set name="type" addition="any">Weapon</set>
