@@ -4,7 +4,7 @@
     <name>Bleb march magic items</name>
         <description>magic items that are being used in bleb march</description>
         <author url="">Mist Helix</author>
-        <update version="0.0.4">
+        <update version="0.0.5">
             <file name="MistMagic.xml"
             url="https://raw.githubusercontent.com/MistHelix/MistMagic-items/main/MistMagic.xml"/>
         </update>
@@ -118,24 +118,24 @@
         <description>
             <p>Your receive 2d4+4 Temporary Hit points and are resistant to necrotic damage for 24 hours. You are also an Undead for the duration with all the benefits and problem it causes.</p>
         </description>
-        <sheet>
+        <setters>
             <description>
                 <set name="keywords">healing</set>
 			    <set name="category">Potions</set>
 			    <set name="cost" currency="gp">50</set>
-			    <set name="weight" lb="0.5">½ lb.</set>
+			    <set name="weight" lb="0.5">0.5 lb.</set>
 			    <set name="type">Potion</set>
 			    <set name="rarity">uncommon</set>
 			    <set name="stackable">true</set>
             </description>
-        </sheet>
+        </setters>
     </element>
     <element name="Collar of Parking" type="Magic Item" source="Bleb March" id="ID_TUNA_HomeBrew_ITEM_COLLAR_OF_PARKING">
         <description>
             <p>Requires attunement by a mount</p>
             <p class="indent">When a mount is attuned to the collar, you can insert gold coins in a slot on the collar and then speak the command word. If you do, the creature will be sent to a demiplane for an amount of hours equal to the amount of gold coins spent (1 gold coin = 1 hour). While in the demiplane, the creature does not need to breathe, drink, eat or sleep, and its hp cannot be increased nor reduced. As an action you can speak the command word to make the creature return.</p>
         </description>
-        <sheet>
+        <setters>
             <description>
                 <set name="category">Wondrous Items</set>
 			    <set name="cost" currency="gp">100</set>
@@ -143,7 +143,7 @@
 			    <set name="type">Wondrous Item</set>
 			    <set name="rarity">uncommon</set>
                 </description>
-        </sheet>
+        </setters>
     </element>
     <element name="Absolutely Legitimate Fabergè Egg of Enthralling" type="Magic Item" source="Bleb March" id="ID_TUNA_HomeBrew_ITEM_Absolutely_legitimate_Fabergè_egg_of_enthralling">
         <description>
@@ -151,7 +151,7 @@
             this beautul carved egg seems to be made of filigree platinum and emeralds,but on closer inspection it is revealed to be made of tin and green glass. As an action, you can throw the egg to a target you can see up to 60ft to impose disadvantage on all concentration check until the start of their next turn. When you do so, make a wisdom save DC 8: if you fail, you feel so bad for destroying such a precious work of art that have disadvantage on concentration checks and attack rolls until the end of your next turn. The item was made by the curse masters of Feli, the city of sorcerors – it is guaranteed to increase in power with the user. Once the egg is used, it will be hatched by an egglaying creature next to the attuned individual the next dawn.
             </p>
         </description>
-        <sheet>
+        <setters>
             <description>
                 <set name="category">Wondrous Items</set>
 			    <set name="cost" currency="gp">0</set>
@@ -160,13 +160,13 @@
                 <set name="attunement">true</set>
 			    <set name="rarity">uncommon</set>
             </description>
-        </sheet>
+        </setters>
     </element>
     <element name="Pipe of Smoke Shaping" type="Wondrous Item" source="Bleb March" id="ID_GUCCI_HomeBrew_ITEM_PIPE_OF_SMOKE_SHAPING">
         <description>
             <p>A small, wooden pipe that feels smooth to the touch. While smoking this pipe, you can use an action to exhale a puff of smoke that takes any form. The form must be small enough to fit in a 1-foot cube and loses its shape after a few seconds, becoming an ordinary puff of smoke.</p>
         </description>
-        <sheet>
+        <setters>
             <description>
                 <set name="category">Wondrous Items</set>
 			    <set name="cost" currency="gp">0</set>
@@ -174,13 +174,13 @@
 			    <set name="type">Wondrous Item</set>
 			    <set name="rarity">common</set>
             </description>
-        </sheet>
+        </setters>
     </element>
     <element name="Tea Pot of Wonder" type="Wondrous Item" source="Bleb March" id="ID_GUCCI_HomeBrew_ITEM_TEA_POT_OF_WONDER">
         <description>
             <p>A round, blue and white porclain teapot. Pours out unlimited tea, that lasts 5 minutes and disappears unless consumed. It behaves like ordinary tea when consumed.</p>
         </description>
-        <sheet>
+        <setters>
             <description>
                 <set name="category">Wondrous Items</set>
 			    <set name="cost" currency="gp">0</set>
@@ -188,13 +188,13 @@
 			    <set name="type">Wondrous Item</set>
 			    <set name="rarity">common</set>
             </description>
-        </sheet>
+        </setters>
     </element>
     <element name="Crossbow of Connection" type="Wondrous Item" source="Bleb March" id="ID_GUCCI_HomeBrew_ITEM_CROSSBOW_OF_CONNECTION">
         <description>
             <p> A wooden crossbow with concave bowlimbs facing out. A ruby is engraved in it, above the trigger. You may chose to materialize a red, spectral rope at will, with anchor points being any bolts you've fired with this crossbow. You may materialize this rope between two fired bolts, and use it as a zipline, or leave one end of the rope dangling, like a swing. You may climb on the rope as if you have climbing speed equal to your movement. Only one rope may exist at a time, the maximum length of the rope is 60 feet.</p>
         </description>
-        <sheet>
+        <setters>
             <description>
                 <set name="category">Magic Weapons</set>
 			    <set name="cost" currency="gp">0</set>
@@ -204,7 +204,7 @@
                 <set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
 			    <set name="rarity">common</set>
             </description>
-        </sheet>
+        </setters>
     </element>
     
 </elements>
