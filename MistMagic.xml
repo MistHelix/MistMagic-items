@@ -129,6 +129,21 @@
             
         </setters>
     </element>
+	<element name="Potion of Greater False Life" type="Magic Item" source="Bleb March" id="ID_TUNA_HomeBrew_ITEM_POTION_OF_GREATER_FALSE_LIFE">
+        <description>
+            <p>Your receive 2d4+4 Temporary Hit points and are resistant to necrotic damage for 24 hours. You are also an Undead for the duration with all the benefits and problem it causes.</p>
+        </description>
+        <setters>
+            
+			    <set name="cost" currency="gp">50</set>
+			    <set name="category">Potions</set>
+			    <set name="weight" lb="0.5">½ lb.</set>
+			    <set name="type">Potion</set>
+			    <set name="rarity">Uncommon</set>
+			    <set name="stackable">true</set>
+            
+        </setters>
+    </element>
     <element name="Collar of Parking" type="Magic Item" source="Bleb March" id="ID_TUNA_HomeBrew_ITEM_COLLAR_OF_PARKING">
         <description>
             <p>Requires attunement by a mount</p>
