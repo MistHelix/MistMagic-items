@@ -4,7 +4,7 @@
     <name>Bleb march magic items</name>
         <description>magic items that are being used in bleb march</description>
         <author url="">Mist Helix</author>
-        <update version="0.0.16">
+        <update version="0.0.17">
             <file name="MistMagic.xml"
             url="https://raw.githubusercontent.com/MistHelix/MistMagic-items/main/MistMagic.xml"/>
         </update>
@@ -176,7 +176,7 @@
             
         </setters>
     </element>
-    <element name="Pipe of Smoke Shaping" type="Wondrous Item" source="Bleb March" id="ID_GUCCI_HomeBrew_ITEM_PIPE_OF_SMOKE_SHAPING">
+    <element name="Pipe of Smoke Shaping" type="Magic Item" source="Bleb March" id="ID_GUCCI_HomeBrew_ITEM_PIPE_OF_SMOKE_SHAPING">
         <description>
             <p>A small, wooden pipe that feels smooth to the touch. While smoking this pipe, you can use an action to exhale a puff of smoke that takes any form. The form must be small enough to fit in a 1-foot cube and loses its shape after a few seconds, becoming an ordinary puff of smoke.</p>
         </description>
@@ -190,7 +190,7 @@
             
         </setters>
     </element>
-    <element name="Tea Pot of Wonder" type="Wondrous Item" source="Bleb March" id="ID_GUCCI_HomeBrew_ITEM_TEA_POT_OF_WONDER">
+    <element name="Tea Pot of Wonder" type="Magic Item" source="Bleb March" id="ID_GUCCI_HomeBrew_ITEM_TEA_POT_OF_WONDER">
         <description>
             <p>A round, blue and white porclain teapot. Pours out unlimited tea, that lasts 5 minutes and disappears unless consumed. It behaves like ordinary tea when consumed.</p>
         </description>
@@ -204,7 +204,7 @@
             
         </setters>
     </element>
-    <element name="Crossbow of Connection" type="Wondrous Item" source="Bleb March" id="ID_GUCCI_HomeBrew_ITEM_CROSSBOW_OF_CONNECTION">
+    <element name="Crossbow of Connection" type="Magic Item" source="Bleb March" id="ID_GUCCI_HomeBrew_ITEM_CROSSBOW_OF_CONNECTION">
         <description>
             <p> A wooden crossbow with concave bowlimbs facing out. A ruby is engraved in it, above the trigger. You may chose to materialize a red, spectral rope at will, with anchor points being any bolts you've fired with this crossbow. You may materialize this rope between two fired bolts, and use it as a zipline, or leave one end of the rope dangling, like a swing. You may climb on the rope as if you have climbing speed equal to your movement. Only one rope may exist at a time, the maximum length of the rope is 60 feet.</p>
         </description>
@@ -221,24 +221,25 @@
             
         </setters>
     </element>
-    <element name="Skaven Heavy Rifle" type="Wondrous Item" source="Bleb March" id="ID_MIST_HomeBrew_ITEM_SKAVEN_HEAVY_RIFLE">
+    <element name="Skaven Heavy Rifle" type="Magic Item" source="Bleb March" id="ID_MIST_HomeBrew_ITEM_SKAVEN_HEAVY_RIFLE">
         <description>
             <p>Skaven Heavy Rifle.range 120/400 ft., one target. Hit: (2d8) piercing plus (1d6) necrotic damage. If the skaven heavy rifle misfires the turn after being repaired then it catastrophically fails in a bright emerald green explosion dealing 10 (3d6) force damage plus 7 (2d6) necrotic damage in a 5 ft. cube centered on it’s wielder. Misfire 5.  Loading property. You can take 30seconds to set up the scope to increase the range to 400/2000</p>
         </description>
         <setters>
-            	<set name="keywords">musket, necrotic</set>
+            
                 <set name="category">Magic Weapons</set>
-                <set name="type">Wondrous Items</set>
 			    <set name="cost" currency="gp">0</set>
 			    <set name="weight" lb="5">5 lb.</set>
                 <set name="damage" type="piercing">2d8+1d6</set>
                 <set name="type" addition="Firearm">Weapon</set>
                 <set name="weapon">Musket</set>
 			    <set name="rarity">uncommon</set>
+                <set name="category">Magic Weapons</set>
+			
             
         </setters>
     </element>
-    <element name="Quicksilver Rod" type="Wondrous Item" source="Bleb March" id="ID_TUNA_HomeBrew_ITEM_QUICKSILVER_ROD">
+    <element name="Quicksilver Rod" type="Magic Item" source="Bleb March" id="ID_TUNA_HomeBrew_ITEM_QUICKSILVER_ROD">
         <description>
             <p>This featurless, silvery rod can transform in any martial or simple weapon as an action. If a ranged weapon is chosen, it transforms with 1 ammunition loaded. It  counts as magical for the purposes of overcoming resistances.
 </p>
@@ -253,7 +254,7 @@
 			    <set name="rarity">uncommon</set>
         </setters>
     </element>
-    <element name="Scarf of Sand" type="Wondrous Item" source="Bleb March" id="ID_MIST_HomeBrew_ITEM_SCARF_OF_SAND">
+    <element name="Scarf of Sand" type="Magic Item" source="Bleb March" id="ID_MIST_HomeBrew_ITEM_SCARF_OF_SAND">
         <description>
             <p>This scarf makes you immune to the effectives of sand storms and lets you create a mini sand storm in a 15 by 15 by 15 cube that has a dc13 con save to be blinded for one minuite. For an action the eyes can be cleaned out and you are immune for the duration. This can be used once per day.</p>
         </description>
