@@ -270,7 +270,7 @@
 <element name="Orb of Talking to Alimarj" type="Magic Item" source="Bleb March" id="ID_MIST_HomeBrew_ITEM_ORB_OF_TALKING_TO_ALIMARJ">
         <description>
             <p>
-            This orb allows you to talk with alimarj.
+            this beautul carved egg seems to be made of filigree platinum and emeralds,but on closer inspection it is revealed to be made of tin and green glass. As an action, you can throw the egg to a target you can see up to 60ft to impose disadvantage on all concentration check until the start of their next turn. When you do so, make a wisdom save DC 8: if you fail, you feel so bad for destroying such a precious work of art that have disadvantage on concentration checks and attack rolls until the end of your next turn. The item was made by the curse masters of Feli, the city of sorcerors – it is guaranteed to increase in power with the user. Once the egg is used, it will be hatched by an egglaying creature next to the attuned individual the next dawn.
             </p>
         </description>
         <setters>
@@ -279,12 +279,12 @@
 			    <set name="cost" currency="gp">0</set>
 			    <set name="weight" lb="0">0 lb.</set>
 			    <set name="type">Wondrous Item</set>
-               
+                
 			    <set name="rarity">common</set>
             
         </setters>
     </element>
-	<element name="Necklace of Memory" type="Wondrous Items" source="Bleb March" id="ID_MIST_HomeBrew_ITEM_NECKLACE_OF_MEMORY">
+    <element name="Necklace of Memory" type="Wondrous Items" source="Bleb March" id="ID_MIST_HomeBrew_ITEM_NECKLACE_OF_MEMORY">
         <description>
             <p>The wearer cant be affected by spells that cause you to loose memory.</p>
         </description>
@@ -294,7 +294,7 @@
 			    <set name="weight" lb="0">0 lb.</set>
 			    <set name="type">Wondrous Item</set>
                 <set name="attunement">true</set>
-                <set name="attunement">true</set>
+                
 			    <set name="rarity">uncommon</set>
         </setters>
     </element>
