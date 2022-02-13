@@ -4,7 +4,7 @@
     <name>Bleb march magic items</name>
         <description>magic items that are being used in bleb march</description>
         <author url="">Mist Helix</author>
-        <update version="0.0.24">
+        <update version="0.0.25">
             <file name="MistMagic.xml"
             url="https://raw.githubusercontent.com/MistHelix/MistMagic-items/main/MistMagic.xml"/>
         </update>
@@ -12,7 +12,7 @@
 
     <element name="Mystical Cigar" type="Magic Item" source="Bleb March" id="ID_MistHelix_HomeBrew_MAGIC_ITEM_MYSTICAL_CIGAR">
 		<description>
-			<p>If you smoke one of these it takes your concentration and an action. When begin to smoke you flip a coin if its head it casts fog cloud 60ft range and lasts for 3 rounds and is consumbed. If you flipped tails you cast disguise self where your disguise must include someone smoking a cigar. It lasts for one minute.</p>
+			<p>If you smoke one of these it takes your concentration and an action. When beging to smoke you flip a coin if its head it casts fog cloud 60ft range and lasts for 3 rounds and is consumed. If you flipped tails you cast disguise self where your disguise must include someone smoking a cigar. It lasts for one minute.</p>
 			
 		</description>
 		<setters>
@@ -44,7 +44,7 @@
     <element name="Clippy, the Annoying Thieves Tool" type="Magic Item" source="Bleb March" id="ID_TUNA_HomeBrew_MAGIC_ITEM_CLIPY">
         <description>
             <p> Crafted by Meeko the Devious, this artifact looks like a small bendy rod of iron with googly eyes and a mouth made of  clay attached to it.</p>
-            <p class="indent"> You can strike it as an action, pointing it at an object within 120 feet of you that can be opened, such as a door, lid, or lock. The clip starts talking in a high pitch tone explaining you how to open the object,(potentailly alerting nearby enemies), and one lock or latch on the object opens unless the sound can't reach the object.</p>
+            <p class="indent"> You can strike it as an action, pointing it at an object within 120 feet of you that can be opened, such as a door, lid, or lock. The clip starts talking in a high pitch tone explaining you how to open the object,(potentially alerting nearby enemies), and one lock or latch on the object opens unless the sound can't reach the object.</p>
             <p  class="indent"> If no locks or latches remain, the object itself opens. The item can be used 1 time per adventure, at dm's discretion.</p>
         </description>
         <setters>
@@ -162,7 +162,7 @@
     <element name="Absolutely Legitimate Fabergè Egg of Enthralling" type="Magic Item" source="Bleb March" id="ID_TUNA_HomeBrew_ITEM_Absolutely_legitimate_Fabergè_egg_of_enthralling">
         <description>
             <p>
-            this beautul carved egg seems to be made of filigree platinum and emeralds,but on closer inspection it is revealed to be made of tin and green glass. As an action, you can throw the egg to a target you can see up to 60ft to impose disadvantage on all concentration check until the start of their next turn. When you do so, make a wisdom save DC 8: if you fail, you feel so bad for destroying such a precious work of art that have disadvantage on concentration checks and attack rolls until the end of your next turn. The item was made by the curse masters of Feli, the city of sorcerors – it is guaranteed to increase in power with the user. Once the egg is used, it will be hatched by an egglaying creature next to the attuned individual the next dawn.
+            This beautiful carved egg seems to be made of filigree platinum and emeralds, but on closer inspection it is revealed to be made of tin and green glass. As an action, you can throw the egg to a target you can see up to 60ft to impose disadvantage on all concentration check until the start of their next turn. When you do so, make a wisdom save DC 8: if you fail, you feel so bad for destroying such a precious work of art that have disadvantage on concentration checks and attack rolls until the end of your next turn. The item was made by the curse masters of Feli, the city of sorcerors – it is guaranteed to increase in power with the user. Once the egg is used, it will be hatched by an egglaying creature next to the attuned individual the next dawn.
             </p>
         </description>
         <setters>
@@ -192,7 +192,7 @@
     </element>
     <element name="Tea Pot of Wonder" type="Magic Item" source="Bleb March" id="ID_GUCCI_HomeBrew_ITEM_TEA_POT_OF_WONDER">
         <description>
-            <p>A round, blue and white porclain teapot. Pours out unlimited tea, that lasts 5 minutes and disappears unless consumed. It behaves like ordinary tea when consumed.</p>
+            <p>A round, blue and white porclain teapot. Pours out unlimited tea that lasts 5 minutes and disappears unless consumed. It behaves like ordinary tea when consumed.</p>
         </description>
         <setters>
             
@@ -270,7 +270,7 @@
 <element name="Orb of Talking to Alimarj" type="Magic Item" source="Bleb March" id="ID_MIST_HomeBrew_ITEM_ORB_OF_TALKING_TO_ALIMARJ">
         <description>
             <p>
-            A silver orb with motifies of horned bunnies. This orb allows you to talk with alimarj.
+            A silver orb with motifs of horned bunnies. This orb allows you to talk with alimarj.
             </p>
         </description>
         <setters>
@@ -286,7 +286,7 @@
     </element>
     <element name="Necklace of Memory" type="Magic Item" source="Bleb March" id="ID_MIST_HomeBrew_ITEM_NECKLACE_OF_MEMORY">
         <description>
-            <p>The wearer cant be affected by spells that cause you to loose memory.</p>
+            <p>The wearer cant be affected by spells that cause you to lose memory.</p>
         </description>
          <setters>
                 <set name="category">Wondrous Items</set>
