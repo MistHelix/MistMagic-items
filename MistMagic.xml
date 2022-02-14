@@ -256,7 +256,7 @@
     </element>
     <element name="Scarf of Sand" type="Magic Item" source="Bleb March" id="ID_MIST_HomeBrew_ITEM_SCARF_OF_SAND">
         <description>
-            <p>This scarf makes you immune to the effectives of sand storms and lets you create a mini sand storm in a 15 by 15 by 15 cube that has a dc13 con save to be blinded for one minuite. For an action the eyes can be cleaned out and you are immune for the duration. This can be used once per day.</p>
+            <p>This scarf makes you immune to the effectives of sand storms and lets you create a mini sand storm in a 15 by 15 by 15 cube that has a dc13 con save to be blinded for one minuite as a bonus action. For an action the eyes can be cleaned out and you are immune for the duration. This can be used once per day.</p>
         </description>
         <setters>
                 <set name="category">Wondrous Items</set>
