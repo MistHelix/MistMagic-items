@@ -322,7 +322,7 @@
 			<set name="type" addition="any">Weapon</set>
 			<set name="rarity">Uncommon</set>
 			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE</set>
-			<set name="name-format">{{{enhancement}}+{parent}}</set>
+			
 		
 		</setters>
 	</element>
