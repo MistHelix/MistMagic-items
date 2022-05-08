@@ -4,7 +4,7 @@
     <name>Bleb march magic items</name>
         <description>magic items that are being used in bleb march</description>
         <author url="">Mist Helix</author>
-        <update version="0.0.33">
+        <update version="0.0.34">
             <file name="MistMagic.xml"
             url="https://raw.githubusercontent.com/MistHelix/MistMagic-items/main/MistMagic.xml"/>
         </update>
@@ -298,7 +298,7 @@
 			    <set name="rarity">uncommon</set>
         </setters>
     </element>
-<element name="Ring of Imagination" type="Wondrous Items" source="Bleb March" id="ID_MIST_HomeBrew_ITEM_RING_OF_IMAGINATION">
+<element name="Ring of the Chosen One" type="Wondrous Items" source="Bleb March" id="ID_MIST_HomeBrew_ITEM_RING_OF_IMAGINATION">
         <description>
             <p>This ring has an opening lotus motif and is made of silver with the petals of gold. This ring lets the user emit smoke from the ring of a strong image in there mind. The smoke dissipates when the wearer stops thinking about it or a strong wind blows. </p>
         </description>
