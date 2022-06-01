@@ -4,7 +4,7 @@
     <name>Bleb march magic items</name>
         <description>magic items that are being used in bleb march</description>
         <author url="">Mist Helix</author>
-        <update version="0.0.34">
+        <update version="0.0.35">
             <file name="MistMagic.xml"
             url="https://raw.githubusercontent.com/MistHelix/MistMagic-items/main/MistMagic.xml"/>
         </update>
@@ -337,6 +337,24 @@
 			    <set name="type">Wondrous Item</set>
                 <set name="attunement">true</set>
 			    <set name="rarity">uncommon</set>
+        </setters>
+    </element>
+	<element name="Fatebound Belts" type="Magic Item" source="Bleb March" id="ID_MIST_HomeBrew_ITEM_BELT_OF_ABYSSAL">
+        <description>
+            <p>The pair of belts seem inexplicably bound to one another. Holding one of them causes you to feel a small, clawing desire to be close to the other. While two creatures are attuned to these belts, you can generally sense the direction of the other creature wearing the belt, though not the distance. You can spend 1 minute focusing on these feelings to get a mental picture of a 10 foot radius around the other creature, as well as their emotional and physical state.</p>
+<p class=“ indent”>While two creatures are attuned to the belts and within 20 feet of each other, either creature can use a bonus action to cause a magical chain to appear between the two belts. The chain is 20feet long and solid. It has an AC of 14 and 30 points. It is immune to non magical damage.</p>
+<p class=“ indent”>While the chain is active, you can add the proficiency bonus of both creatures to attack rolls made by either creature and spell casters can add the proficiency bonus of both creatures to their spell save DC (8+p1 prof+p2 prof+spell mod). Additionally, when either creature makes an opportunity attack against a hostile creature, the other can use their reaction to move within range of the hostile creature and make an opportunity attack.</p>
+<p class=“ indent”>The chain lasts for 1 minute, or until it is destroyed or dismissed. Once the chain has been used, it cannot be used again until both creatures attuned to the belts complete a long rest.</p>
+
+        </description>
+        <setters>
+                <set name="category">Wondrous Items</set>
+			    <set name="cost" currency="gp">0</set>
+			    <set name="weight" lb="0">0 lb.</set>
+			    <set name="type">Wondrous Item</set>
+			<set name="slot">waist</set>
+                	<set name="attunement">true</set>
+			   <set name="rarity">uncommon</set>
         </setters>
     </element>
 </elements>
