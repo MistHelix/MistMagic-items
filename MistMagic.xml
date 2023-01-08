@@ -4,7 +4,7 @@
     <name>Bleb march magic items</name>
         <description>magic items that are being used in bleb march</description>
         <author url="">Mist Helix</author>
-        <update version="0.0.38">
+        <update version="0.0.39">
             <file name="MistMagic.xml"
             url="https://raw.githubusercontent.com/MistHelix/MistMagic-items/main/MistMagic.xml"/>
         </update>
@@ -21,7 +21,7 @@
             <set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="type">Wondrous Items</set>
-			<set name="rarity">common</set>
+			<set name="rarity">Common</set>
 			
 			
 		</setters>
@@ -37,7 +37,7 @@
             <set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">5 lb.</set>
 			<set name="type">Wondrous Items</set>
-			<set name="rarity">unique</set>
+			<set name="rarity">Unique</set>
 
         </setters>
     </element>
@@ -53,7 +53,7 @@
             <set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="type">Wondrous Items</set>
-			<set name="rarity">uncommon</set>
+			<set name="rarity">Uncommon</set>
 
         </setters>
     </element>
@@ -71,7 +71,7 @@
 			<set name="weight" lb="15">15 lb.</set>
 			<set name="stash" lb="500" weightless="true">true</set>
 			<set name="type">Wondrous Item</set>
-			<set name="rarity">uncommon</set>
+			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
     <element name="Ring of Singing, not Listening" type="Magic Item" source="Bleb March" id="ID_TUNA_HomeBrew_MAGIC_ITEM_RING_OF_SINGING,_NOT_LISTENING">
@@ -100,7 +100,7 @@
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="type">Wondrous Item</set>
-			<set name="rarity">uncommon</set>
+			<set name="rarity">Uncommon</set>
 		</setters>
     </element>
 	<element name="Silphium Leaf" type="Item" source="Bleb March" id="ID_TUNA_HomeBrew_ITEM_SILPHIUM_LEAF">
@@ -155,7 +155,7 @@
 			    <set name="cost" currency="gp">100</set>
 			    <set name="weight" lb="0">0 lb.</set>
 			    <set name="type">Wondrous Item</set>
-			    <set name="rarity">uncommon</set>
+			    <set name="rarity">Uncommon</set>
             
         </setters>
     </element>
@@ -172,7 +172,7 @@
 			    <set name="weight" lb="0">0 lb.</set>
 			    <set name="type">Wondrous Item</set>
                 <set name="attunement">true</set>
-			    <set name="rarity">uncommon</set>
+			    <set name="rarity">Uncommon</set>
             
         </setters>
     </element>
@@ -186,7 +186,7 @@
 			    <set name="cost" currency="gp">0</set>
 			    <set name="weight" lb="0">0 lb.</set>
 			    <set name="type">Wondrous Item</set>
-			    <set name="rarity">common</set>
+			    <set name="rarity">Common</set>
             
         </setters>
     </element>
@@ -200,7 +200,7 @@
 			    <set name="cost" currency="gp">0</set>
 			    <set name="weight" lb="0">0 lb.</set>
 			    <set name="type">Wondrous Item</set>
-			    <set name="rarity">common</set>
+			    <set name="rarity">Common</set>
             
         </setters>
     </element>
@@ -217,7 +217,7 @@
 			    <set name="type" addition="any">Weapon</set>
                 <set name="attunement">true</set>
                 <set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
-			    <set name="rarity">common</set>
+			    <set name="rarity">Common</set>
             
         </setters>
     </element>
@@ -233,7 +233,7 @@
                 <set name="damage" type="piercing">2d8+1d6</set>
                 <set name="type" addition="Firearm">Weapon</set>
                  <set name="weapon">Rifle</set>
-			    <set name="rarity">uncommon</set>
+			    <set name="rarity">Uncommon</set>
                 <set name="category">Magic Weapons</set>
 			
             
@@ -251,7 +251,7 @@
 			    <set name="type">Wondrous Item</set>
                 <set name="attunement">true</set>
                 <set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
-			    <set name="rarity">uncommon</set>
+			    <set name="rarity">Uncommon</set>
         </setters>
     </element>
     <element name="Scarf of Sand" type="Magic Item" source="Bleb March" id="ID_MIST_HomeBrew_ITEM_SCARF_OF_SAND">
@@ -264,7 +264,7 @@
 			    <set name="weight" lb="0">0 lb.</set>
 			    <set name="type">Wondrous Item</set>
                 <set name="attunement">true</set>
-			    <set name="rarity">uncommon</set>
+			    <set name="rarity">Uncommon</set>
         </setters>
     </element>
 <element name="Orb of Talking to Alimarj" type="Magic Item" source="Bleb March" id="ID_MIST_HomeBrew_ITEM_ORB_OF_TALKING_TO_ALIMARJ">
@@ -280,7 +280,7 @@
 			    <set name="weight" lb="0">0 lb.</set>
 			    <set name="type">Wondrous Item</set>
                 
-			    <set name="rarity">common</set>
+			    <set name="rarity">Common</set>
             
         </setters>
     </element>
@@ -295,7 +295,7 @@
 			    <set name="type">Wondrous Item</set>
                 <set name="attunement">true</set>
                 
-			    <set name="rarity">uncommon</set>
+			    <set name="rarity">Uncommon</set>
         </setters>
     </element>
 <element name="Ring of the Chosen One" type="Wondrous Items" source="Bleb March" id="ID_MIST_HomeBrew_ITEM_RING_OF_IMAGINATION">
@@ -336,7 +336,7 @@
 			    <set name="weight" lb="0">0 lb.</set>
 			    <set name="type">Wondrous Item</set>
                 <set name="attunement">true</set>
-			    <set name="rarity">uncommon</set>
+			    <set name="rarity">Uncommon</set>
         </setters>
     </element>
 	<element name="Fatebound Belts" type="Magic Item" source="Bleb March" id="ID_MIST_HomeBrew_ITEM_BELT_OF_ABYSSAL">
@@ -357,5 +357,23 @@
 		<set name="rarity">Rare</set>
         </setters>
     </element>
+
+    <element name="Duelist's Gace" type="Magic Item" source="Bleb March" id="ID_MIST_HomeBrew_ITEM_Duelist's_Grace">
+		<description>
+			<p>While some use power and ferocity to their advantage, others opt for fighting techniques that take advantage of their fluidity and reflexes. Finding the right angle of attack or deflection serves them better than tackling their foes head on. You have a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+            <p class="indent">When you roll initiative, you can designate one creature you can see to be your dueling partner. Once per round, when you hit your dueling partner with an attack with this weapon, you gain a charge of Grace up to a maximum of 5 charges. If you hit a creature other than your dueling partner, you lose a charge of Grace that round. If your dueling partner drops to 0 hit points, you can use a bonus action to choose a new dueling partner and reset your Grace to 0. All charges of Grace are lost if you do not attempt to attack your dueling partner for 1 minute.</p>
+            <p class="indent">Grace. For each charge of Grace you currently have, you gain a +1 bonus to AC and saving throws against attacks and spells made by your dueling partner. At maximum Grace, on your turn, you can make one extra attack against your dueling partner each round.</p>
+		</description>
+		<setters>
+            <set name="keywords">shortsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="shortsword">Weapon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="weapon">Shortsword</set>
+			
+		
+		</setters>
+	</element>
 </elements>
 
